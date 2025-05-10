@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: model-manifest-api
-        image: taffarelo3/model-manifest-api:9d4887a475dbd082e4ff0af38a13ea2cf207e448
+        image: taffarelo3/model-manifest-api:7b6640bb61722f862c6f7c7a1571e57d98b3980e
