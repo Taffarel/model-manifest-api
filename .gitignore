@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+.env
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Dependency Directories
+.pipenv/
+Pipfile.lock
+
+# FastAPI / Uvicorn
+*.log
+uvicorn.log
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
+*.cover
+*.xml
+*.lcov
+htmlcov/
+
+# Docker
+docker-compose.yml
+Dockerfile.dev
+*.dockerignore
+*.tar.gz
+
+# Kubernetes
+k8s/local/
+k8s/secrets/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local Configuration
+*.local
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Sensitive Data
+secrets/
+*.key
+*.pem
+*.crt
+*.cert
+
+# Temporary Files
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+
+# Documentation Build Artifacts
+docs/_build/
+docs/build/

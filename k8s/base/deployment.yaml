@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: model-manifest-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: model-manifest-api
+  template:
+    metadata:
+      labels:
+        app: model-manifest-api
+    spec:
+      containers:
+      - name: model-manifest-api
+        image: placeholder/model-manifest-api:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: ALLOWED_TOKENS
+          value: "token1,token2"
